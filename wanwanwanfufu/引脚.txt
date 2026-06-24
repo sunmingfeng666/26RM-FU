@@ -1,0 +1,17 @@
+ 1. PB10 -> key1
+  2. PB11 ->key2
+  3. PB12 -> key3
+  4. PB13 -> key4
+  5. PB14 -> key5
+  6. PB15 -> key6
+  7. PA4 -> key7
+  8. PB6 -> key8
+  9. PB7 -> key9
+
+PA1->din0
+PA6->din1
+PB0->din2
+PA0->din3
+PA2->din4
+PA3->R标
+
