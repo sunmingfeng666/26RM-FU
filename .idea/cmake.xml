@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='utf-8'?>
+<project version="4">
+  <component name="CMakeSharedSettings">
+    <configurations>
+      <configuration PROFILE_NAME="STM32-master-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/master-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=master" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-master-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/master-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=master" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave1-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/slave1-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave1" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave1-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/slave1-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave1" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave2-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/slave2-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave2" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave2-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/slave2-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave2" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave3-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/slave3-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave3" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave3-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/slave3-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave3" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave4-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/slave4-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave4" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave4-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/slave4-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave4" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave5-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/slave5-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave5" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave5-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/slave5-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave5" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-motor-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/motor-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=motor" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-motor-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/motor-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=motor" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave6-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/slave6-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave6" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave6-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/slave6-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave6" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave7-Debug" ENABLED="true" CONFIG_NAME="Debug" GENERATION_DIR="$PROJECT_DIR$/build/slave7-Debug" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave7" BUILD_OPTIONS="-j 8" />
+      <configuration PROFILE_NAME="STM32-slave7-Release" ENABLED="false" CONFIG_NAME="Release" GENERATION_DIR="$PROJECT_DIR$/build/slave7-Release" GENERATION_OPTIONS="-G Ninja -DACTIVE_BOARD=slave7" BUILD_OPTIONS="-j 8" />
+    </configurations>
+  </component>
+</project>

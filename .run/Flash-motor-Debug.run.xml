@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Flash motor-Debug" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="EnergyControl" TARGET_NAME="EnergyFirmware_motor_Debug" CONFIG_NAME="STM32-motor-Debug" RUN_PATH="C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe" PROGRAM_PARAMS="-NoProfile -NonInteractive -ExecutionPolicy Bypass -File &quot;$ProjectFileDir$/tools/flash/flash.ps1&quot; -BuildDir &quot;$CMakeCurrentGenerationDir$&quot; -ExpectedBoard motor -ExpectedConfiguration Debug" WORKING_DIR="$ProjectFileDir$">
+    <method v="2">
+      <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+    </method>
+  </configuration>
+</component>

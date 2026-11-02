@@ -1,0 +1,15 @@
+{
+  "openOcdRoot": "",
+  "jLinkExe": "C:\\Program Files\\SEGGER\\JLink\\JLink.exe",
+  "boards": {
+    "master": {"mode": "auto", "serial": ""},
+    "slave1": {"mode": "auto", "serial": ""},
+    "slave2": {"mode": "auto", "serial": ""},
+    "slave3": {"mode": "auto", "serial": ""},
+    "slave4": {"mode": "auto", "serial": ""},
+    "slave5": {"mode": "auto", "serial": ""},
+    "slave6": {"mode": "auto", "serial": ""},
+    "slave7": {"mode": "auto", "serial": ""},
+    "motor": {"mode": "auto", "serial": ""}
+  }
+}

@@ -20,6 +20,9 @@ endif()
 
 # Set the project name
 set(CMAKE_PROJECT_NAME fu_slave5)
+if(DEFINED ENERGY_EXECUTABLE_NAME)
+    set(CMAKE_PROJECT_NAME ${ENERGY_EXECUTABLE_NAME})
+endif()
 
 # 该目录固定为5号从机，避免CLion旧缓存导致板号错乱。
 set(ENERGY_SLAVE_INDEX 5)
@@ -81,3 +84,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
     # Add user defined libraries
 )
+
+if(DEFINED ENERGY_EXECUTABLE_NAME)
+    include(${CMAKE_SOURCE_DIR}/cmake/slave_output.cmake)
+endif()

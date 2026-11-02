@@ -1,0 +1,7 @@
+build/
+cmake-build-*/
+.tools/
+.idea/workspace.xml
+.idea/shelf/
+tools/flash/logs/
+tools/flash/flash.local.json

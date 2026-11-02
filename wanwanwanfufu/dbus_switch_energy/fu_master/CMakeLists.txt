@@ -20,6 +20,9 @@ endif()
 
 # Set the project name
 set(CMAKE_PROJECT_NAME fu_master)
+if(DEFINED ENERGY_EXECUTABLE_NAME)
+    set(CMAKE_PROJECT_NAME ${ENERGY_EXECUTABLE_NAME})
+endif()
 
 # Enable compile command to ease indexing with e.g. clangd
 set(CMAKE_EXPORT_COMPILE_COMMANDS TRUE)
@@ -43,7 +46,7 @@ add_executable(${CMAKE_PROJECT_NAME}
     user/BSP/can_master.h
     user/BSP/dbus.c
     user/BSP/dbus.h
-    ../common/energy_protocol.h
+    ../../common/energy_protocol.h
 )
 
 # Add STM32CubeMX generated sources
@@ -63,7 +66,7 @@ target_sources(${CMAKE_PROJECT_NAME} PRIVATE
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     ${CMAKE_CURRENT_SOURCE_DIR}/user/APP
     ${CMAKE_CURRENT_SOURCE_DIR}/user/BSP
-    ${CMAKE_CURRENT_SOURCE_DIR}/../common
+    ${CMAKE_CURRENT_SOURCE_DIR}/../../common
 )
 
 # Add project symbols (macros)
@@ -80,3 +83,7 @@ target_link_libraries(${CMAKE_PROJECT_NAME}
 
     # Add user defined libraries
 )
+
+if(DEFINED ENERGY_EXECUTABLE_NAME)
+    include(${CMAKE_SOURCE_DIR}/cmake/slave_output.cmake)
+endif()

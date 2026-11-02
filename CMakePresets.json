@@ -1,0 +1,230 @@
+{
+  "version": 3,
+  "configurePresets": [
+    {
+      "name": "base",
+      "hidden": true,
+      "generator": "Ninja",
+      "binaryDir": "${sourceDir}/build/${presetName}",
+      "toolchainFile": "${sourceDir}/cmake/arm-none-eabi.cmake"
+    },
+    {
+      "name": "master-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "master"
+      }
+    },
+    {
+      "name": "master-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "master"
+      }
+    },
+    {
+      "name": "slave1-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "slave1"
+      }
+    },
+    {
+      "name": "slave1-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "slave1"
+      }
+    },
+    {
+      "name": "slave2-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "slave2"
+      }
+    },
+    {
+      "name": "slave2-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "slave2"
+      }
+    },
+    {
+      "name": "slave3-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "slave3"
+      }
+    },
+    {
+      "name": "slave3-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "slave3"
+      }
+    },
+    {
+      "name": "slave4-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "slave4"
+      }
+    },
+    {
+      "name": "slave4-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "slave4"
+      }
+    },
+    {
+      "name": "slave5-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "slave5"
+      }
+    },
+    {
+      "name": "slave5-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "slave5"
+      }
+    },
+    {
+      "name": "slave6-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "slave6"
+      }
+    },
+    {
+      "name": "slave6-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "slave6"
+      }
+    },
+    {
+      "name": "slave7-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "slave7"
+      }
+    },
+    {
+      "name": "slave7-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "slave7"
+      }
+    },
+    {
+      "name": "motor-Debug",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Debug",
+        "ACTIVE_BOARD": "motor"
+      }
+    },
+    {
+      "name": "motor-Release",
+      "inherits": "base",
+      "cacheVariables": {
+        "CMAKE_BUILD_TYPE": "Release",
+        "ACTIVE_BOARD": "motor"
+      }
+    }
+  ],
+  "buildPresets": [
+    {
+      "name": "master-Debug",
+      "configurePreset": "master-Debug"
+    },
+    {
+      "name": "master-Release",
+      "configurePreset": "master-Release"
+    },
+    {
+      "name": "slave1-Debug",
+      "configurePreset": "slave1-Debug"
+    },
+    {
+      "name": "slave1-Release",
+      "configurePreset": "slave1-Release"
+    },
+    {
+      "name": "slave2-Debug",
+      "configurePreset": "slave2-Debug"
+    },
+    {
+      "name": "slave2-Release",
+      "configurePreset": "slave2-Release"
+    },
+    {
+      "name": "slave3-Debug",
+      "configurePreset": "slave3-Debug"
+    },
+    {
+      "name": "slave3-Release",
+      "configurePreset": "slave3-Release"
+    },
+    {
+      "name": "slave4-Debug",
+      "configurePreset": "slave4-Debug"
+    },
+    {
+      "name": "slave4-Release",
+      "configurePreset": "slave4-Release"
+    },
+    {
+      "name": "slave5-Debug",
+      "configurePreset": "slave5-Debug"
+    },
+    {
+      "name": "slave5-Release",
+      "configurePreset": "slave5-Release"
+    },
+    {
+      "name": "slave6-Debug",
+      "configurePreset": "slave6-Debug"
+    },
+    {
+      "name": "slave6-Release",
+      "configurePreset": "slave6-Release"
+    },
+    {
+      "name": "slave7-Debug",
+      "configurePreset": "slave7-Debug"
+    },
+    {
+      "name": "slave7-Release",
+      "configurePreset": "slave7-Release"
+    },
+    {
+      "name": "motor-Debug",
+      "configurePreset": "motor-Debug"
+    },
+    {
+      "name": "motor-Release",
+      "configurePreset": "motor-Release"
+    }
+  ]
+}

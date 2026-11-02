@@ -1,0 +1,1 @@
+{"schema":1,"board":"@ACTIVE_BOARD@","device":"@ENERGY_DEVICE@","targetCfg":"@ENERGY_OPENOCD_TARGET@","image":"EnergyFirmware.elf","buildType":"@CMAKE_BUILD_TYPE@"}

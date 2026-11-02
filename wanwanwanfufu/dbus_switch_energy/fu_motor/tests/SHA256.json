@@ -1,0 +1,57 @@
+{
+  "legacy_big/all_init.c": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_dafu\\linlkin\\MDK-ARM\\all_init.c",
+    "sha256": "530bfead78560954c905f6fad11bd08cc3a76493de81b4d32189f3352cde4ba6",
+    "matches_original": true
+  },
+  "legacy_big/all_init.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_dafu\\linlkin\\MDK-ARM\\all_init.h",
+    "sha256": "7a4048baf492a6ac6dc7e9420df2a9fb1de120259c0af78741837540760a9a45",
+    "matches_original": true
+  },
+  "legacy_big/my_can.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_dafu\\linlkin\\MDK-ARM\\my_can.h",
+    "sha256": "7f70972af87fa20a56659573eeacc7d015af0aa364cb92b8fe43c7edfef4ef30",
+    "matches_original": true
+  },
+  "legacy_big/tim_task.c": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_dafu\\linlkin\\MDK-ARM\\tim_task.c",
+    "sha256": "e95ffb27b9118ba4f4ab7b583d7596ddc8eb0e80a134becc3b4026ea29c0f259",
+    "matches_original": true
+  },
+  "legacy_big/tim_task.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_dafu\\linlkin\\MDK-ARM\\tim_task.h",
+    "sha256": "9da46164ed4d230d311bdc56062c8e5825d71e8a47765c69c544a60af0b41d0d",
+    "matches_original": true
+  },
+  "legacy_big/vofa.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_dafu\\linlkin\\MDK-ARM\\vofa.h",
+    "sha256": "8ebfebca2820775d9e37b10cf62c58ab34ed58221fac6c472cdad09e063a3168",
+    "matches_original": true
+  },
+  "legacy_small/all_init.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_wan_xiaofu\\dafu\\MDK-ARM\\all_init.h",
+    "sha256": "7a4048baf492a6ac6dc7e9420df2a9fb1de120259c0af78741837540760a9a45",
+    "matches_original": true
+  },
+  "legacy_small/my_can.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_wan_xiaofu\\dafu\\MDK-ARM\\my_can.h",
+    "sha256": "7f70972af87fa20a56659573eeacc7d015af0aa364cb92b8fe43c7edfef4ef30",
+    "matches_original": true
+  },
+  "legacy_small/tim_task.c": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_wan_xiaofu\\dafu\\MDK-ARM\\tim_task.c",
+    "sha256": "7e6e27d833f7aaa74cdb42114564d78bbcd1b714c32da121eeaad8c5f2fa759d",
+    "matches_original": true
+  },
+  "legacy_small/tim_task.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_wan_xiaofu\\dafu\\MDK-ARM\\tim_task.h",
+    "sha256": "d4298c007d1b000b96f37802f9eda1fae7ac8ebac292d2a7828ebf038127e7d9",
+    "matches_original": true
+  },
+  "legacy_small/vofa.h": {
+    "source": "E:\\BaiduSyncdisk\\老\\dafu_finishi\\true_wan_xiaofu\\dafu\\MDK-ARM\\vofa.h",
+    "sha256": "8ebfebca2820775d9e37b10cf62c58ab34ed58221fac6c472cdad09e063a3168",
+    "matches_original": true
+  }
+}
